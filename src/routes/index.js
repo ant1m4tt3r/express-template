@@ -1,8 +1,8 @@
 import { Router } from 'express'
-import Hello from '../controllers/hello'
+import helloController from '../controllers/hello'
 
 const router = Router()
 
-router.get('/', Hello.index)
+router.get('/', helloController.index)
 
 export default router
